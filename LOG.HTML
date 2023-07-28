@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico"
+        href="https://images.vexels.com/media/users/3/142331/isolated/lists/9cb956b5f28f350ebd0b81687e859c53-letra-l-neon-vermelho-timbrado.png">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: linear-gradient(90deg, rgb(225, 0, 0), rgb(225, 225, 225));
+            margin: 0; /* Remover margens padrão */
+            padding: 0; /* Remover espaçamentos padrão */
+            display: flex; /* Usar flexbox para centralizar o conteúdo verticalmente */
+            justify-content: center; /* Centralizar o conteúdo horizontalmente */
+            align-items: center; /* Centralizar o conteúdo verticalmente */
+            height: 100vh; /* Usar a altura total da tela */
+        }
+
+        .conteiner {
+            background: white;
+            border: 2px solid red;
+            border-radius: 25px;
+            padding: 20px;
+            max-width: 300px; /* Adicionar uma largura máxima para evitar que o conteúdo se torne muito grande em telas muito largas */
+        }
+        .conteiner:hover{
+            box-shadow: 0px 0px 20px black; /* Adicionar sombra para destacar o conteúdo */
+        }
+        .gmail,
+        .pass {
+            width: 100%; /* Tornar o campo de entrada de largura total */
+            height: 40px; /* Aumentar a altura do campo de entrada para uma melhor experiência em computadores */
+            font-family: 'Courier New';
+            font-size: 16px; /* Aumentar o tamanho da fonte para computadores */
+            margin-bottom: 10px; /* Adicionar espaçamento inferior entre os campos de entrada */
+        }
+
+        .bemvindo {
+            font-family: 'Courier New';
+            font-size: 30px; /* Aumentar o tamanho da fonte para computadores */
+            text-align: center; /* Centralizar o texto horizontalmente */
+            margin-bottom: 20px; /* Adicionar espaçamento inferior entre o título e os campos de entrada */
+        }
+
+        .enter {
+            background: red;
+            height: 50px; /* Aumentar a altura do botão para computadores */
+            width: 100%; /* Tornar o botão de largura total */
+            border-radius: 25px; /* Reduzir o raio da borda do botão */
+            font-size: 18px; /* Aumentar o tamanho da fonte do botão para computadores */
+            color: white; /* Alterar a cor do texto do botão para branco */
+            display: flex; /* Adicionar um display flex para centralizar o texto verticalmente */
+            justify-content: center; /* Centralizar o texto verticalmente */
+            align-items: center; /* Centralizar o texto horizontalmente */
+            text-decoration: none; /* Remover sublinhado do link */
+            margin-top: 10px; /* Adicionar espaçamento superior */
+        }
+
+        .register {
+            font-family: 'Courier New';
+            font-size: 16px; /* Aumentar o tamanho da fonte do link de registro para computadores */
+            text-align: center; /* Centralizar o texto horizontalmente */
+            margin-top: 10px; /* Adicionar espaçamento superior */
+        }
+
+        .register a {
+            color: black;
+            text-decoration: none; /* Remover sublinhado do link */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <h3 class="bemvindo">Bem-vindo</h3>
+        <input type="email" class="gmail" placeholder="Exemplo@gmail.com">
+        <input type="password" class="pass" placeholder="**">
+        <a href="https://www.google.com" target="_blank" class="enter">Login</a>
+        <p class="register">Ainda não tem uma conta? <a href="https://www.google.com" target="_blank">Registrar</a></p>
+    </div>
+
+</body>
+
+</html>
